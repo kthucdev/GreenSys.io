@@ -3,43 +3,48 @@
       {
         "id": "1",
         "title": "Platform",
+        "href": "/platform",
         "description": "Simplifying and supporting sustainable logistics practices for Shippers, 3PLs and Freight Forwarder",
         "children": [
           {
             "title": "Initiative",
+            "href": "/platform/initiative",
             "image": "/platform/initiative.jpg",
             "children": [
               {
-                "title": "Ocean Visibility",
-                "href": "#",
-                "description": "Track ocean freight in real-time"
+                "title": "Track & Trace",
+                "href": "/platform/initiative/track-trace",
+                "description": "Real-time shipment visibility"
               },
               {
-                "title": "Air Visibility",
-                "href": "#",
-                "description": "Monitor air shipments globally"
-              },
-              {
-                "title": "Land Visibility",
-                "href": "#",
-                "description": "Track trucks and rail shipments"
+                "title": "GreenLabel4Truck",
+                "href": "/platform/initiative/green-label-4-truck",
+                "description": "For sustainable development"
               }
             ]
           },
           {
             "title": "Visibility",
+            "href": "/platform/visibility",
             "image": "/platform/initiative.jpg",
             "description": "Manage on-ground-asset in transit across country wide and neighbors",
             "children": [
               {
-                "title": "Purchase Orders",
-                "href": "#",
-                "description": "Manage your purchase orders"
-              },
+                "title": "GreenPlan",
+                "href": "/platform/visibility/green-plan",
+                "description": "Container, FTL and LTL"
+              }
+            ]
+          },
+          {
+            "title": "ESG",
+            "image": "/platform/initiative.jpg",
+            "href": "/platform/esg",
+            "children": [
               {
-                "title": "Order Tracking",
-                "href": "#",
-                "description": "Track order status"
+                "title": "Emissions",
+                "href": "/platform/esg/emissions",
+                "description": "Measurement & Report"
               }
             ]
           }
@@ -48,37 +53,54 @@
       {
         "id": "2",
         "title": "Solutions",
+        "href": "/solutions",
+        "description": "Access logictics solutions customized to meet your business needs.",
         "children": [
           {
-            "title": "Industries",
+            "title": "Sectors",
+            "href": "/solutions/sectors",
             "image": "/platform/initiative.jpg",
-            "description": "Industry-specific solutions to meet your unique challenges",
+            "description": "Discover solutions for shippers, 3PLs and freight forwarders",
             "children": [
               {
-                "title": "Manufacturing",
-                "href": "#",
-                "description": "Solutions for manufacturing supply chains"
+                "title": "Shippers",
+                "href": "/solutions/sectors/shippers"
               },
               {
-                "title": "Retail",
-                "href": "#",
-                "description": "Retail and e-commerce solutions"
+                "title": "LSPs",
+                "href": "/solutions/sectors/lsps"
               }
             ]
           },
           {
-            "title": "Use Cases",
-            "description": "Discover how our platform solves real business problems",
+            "title": "Industries",
+            "image": "/platform/initiative.jpg",
+            "href": "/solutions/industries",
+            "description": "Learn about industry specific benefits and use cases",
             "children": [
               {
-                "title": "Supply Chain Visibility",
-                "href": "#",
-                "description": "End-to-end visibility solutions"
+                "title": "Agriculture",
+                "href": "/solutions/industries/agriculture"
               },
               {
-                "title": "Sustainability",
-                "href": "#",
-                "description": "Reduce environmental impact"
+                "title": "Automobile",
+                "href": "/solutions/industries/automobile"
+              },
+              {
+                "title": "Chemical",
+                "href": "/solutions/industries/chemical"
+              },
+              {
+                "title": "FMCG & CPG",
+                "href": "/solutions/industries/fmcg-cpg"
+              },
+              {
+                "title": "Food & Beverage",
+                "href": "/solutions/industries/food-beverage"
+              },
+              {
+                "title": "Manufacturing",
+                "href": "/solutions/industries/manufacturing"
               }
             ]
           }
@@ -87,37 +109,54 @@
       {
         "id": "3",
         "title": "Carriers",
+        "href": "/carriers",
+        "image": "/platform/initiative.jpg",
+        "description": "Join the network to minimize check calls and secure more loads with an enhanced customer experience.",
         "children": [
           {
-            "title": "Industries",
+            "title": "Why join",
+            "href": "/carriers/why-join",
             "image": "/platform/initiative.jpg",
-            "description": "Industry-specific solutions to meet your unique challenges",
+            "description": "See how GreenSys is helping Reliable Carriers reduce cost and increase revenue",
             "children": [
               {
-                "title": "Manufacturing",
-                "href": "#",
-                "description": "Solutions for manufacturing supply chains"
+                "title": "For Carriers",
+                "href": "/carriers/for-carriers",
+                "description": "How we work"
               },
               {
-                "title": "Retail",
-                "href": "#",
-                "description": "Retail and e-commerce solutions"
+                "title": "Carrier's FAQs",
+                "href": "/carriers/faqs",
+                "description": "Your questions, answered"
               }
             ]
           },
           {
-            "title": "Use Cases",
-            "description": "Discover how our platform solves real business problems",
+            "title": "How to Connect",
+            "href": "/carriers/how-to-connect",
+            "image": "/platform/initiative.jpg",
+            "description": "Select the integration type that suits you best.",
             "children": [
               {
-                "title": "Supply Chain Visibility",
-                "href": "#",
-                "description": "End-to-end visibility solutions"
+                "title": "Driver Mobile App",
+                "href": "/carriers/how-to-connect/driver-mobile-app"
+              }
+            ]
+          },
+          {
+            "title": "Preferred Network",
+            "href": "/carriers/preferred-network",
+            "image": "/platform/initiative.jpg",
+            "description": "Discover the reliable Transporters who exceed expectations.",
+            "children": [
+              {
+                "title": "Telematics",
+                "href": "/carriers/preferred-network/telematics"
               },
               {
-                "title": "Sustainability",
-                "href": "#",
-                "description": "Reduce environmental impact"
+                "title": "API",
+                "href": "/carriers/preferred-network/api",
+                "description": "Open to API with TMS and others"
               }
             ]
           }
@@ -126,37 +165,72 @@
       {
         "id": "4",
         "title": "Resources",
+        "href": "/resources",
+        "description": "Access resources to help you navigate the logistics industry.",
         "children": [
           {
-            "title": "Industries",
+            "title": "Learn + Connect",
+            "href": "/resources/learn-connect",
             "image": "/platform/initiative.jpg",
-            "description": "Industry-specific solutions to meet your unique challenges",
+            "description": "Explore the blog, resourses and the lastest events",
             "children": [
               {
-                "title": "Manufacturing",
-                "href": "#",
-                "description": "Solutions for manufacturing supply chains"
+                "title": "Blogs",
+                "href": "/resources/learn-connect/blogs"
               },
               {
-                "title": "Retail",
-                "href": "#",
-                "description": "Retail and e-commerce solutions"
+                "title": "Events",
+                "href": "/resources/learn-connect/events"
+              },
+              {
+                "title": "Resources",
+                "href": "/resources/learn-connect/resources"
+              },
+              {
+                "title": "Insights",
+                "href": "/resources/learn-connect/insights"
               }
             ]
           },
           {
-            "title": "Use Cases",
-            "description": "Discover how our platform solves real business problems",
+            "title": "Newrooms",
+            "href": "/resources/newrooms",
+            "image": "/platform/initiative.jpg",
+            "description": "See what's news with GreenSys and get a view into Green Transportation "
+          },
+          {
+            "title": "Help Center",
+            "href": "/resources/help-center",
+            "image": "/platform/initiative.jpg",
+            "description": "Get in touch, explore the customer knowledge base, and more",
             "children": [
               {
-                "title": "Supply Chain Visibility",
-                "href": "#",
-                "description": "End-to-end visibility solutions"
+                "title": "Office Location & Contact",
+                "href": "/resources/help-center/office-location-contact"
               },
               {
-                "title": "Sustainability",
-                "href": "#",
-                "description": "Reduce environmental impact"
+                "title": "Customer Knowledge Base",
+                "href": "/resources/help-center/customer-knowledge-base"
+              },
+              {
+                "title": "Login",
+                "href": "/login"
+              }
+            ]
+          },
+          {
+            "title": "Customer Stories",
+            "href": "/resources/customer-stories",
+            "image": "/platform/initiative.jpg",
+            "description": "Find out how GreenSys customers are seeing value from Green Solutions",
+            "children": [
+              {
+                "title": "Case study",
+                "href": "/resources/customer-stories"
+              },
+              {
+                "title": "Testimonials",
+                "href": "/resources/customer-stories/testimonials"
               }
             ]
           }
@@ -165,39 +239,14 @@
       {
         "id": "5",
         "title": "Company",
+        "href": "/company",
+        "description": "Learn about GreenSys and our commitment to sustainability",
         "children": [
           {
-            "title": "Industries",
+            "title": "About Us",
             "image": "/platform/initiative.jpg",
-            "description": "Industry-specific solutions to meet your unique challenges",
-            "children": [
-              {
-                "title": "Manufacturing",
-                "href": "#",
-                "description": "Solutions for manufacturing supply chains"
-              },
-              {
-                "title": "Retail",
-                "href": "#",
-                "description": "Retail and e-commerce solutions"
-              }
-            ]
-          },
-          {
-            "title": "Use Cases",
-            "description": "Discover how our platform solves real business problems",
-            "children": [
-              {
-                "title": "Supply Chain Visibility",
-                "href": "#",
-                "description": "End-to-end visibility solutions"
-              },
-              {
-                "title": "Sustainability",
-                "href": "#",
-                "description": "Reduce environmental impact"
-              }
-            ]
+            "description": "Learn about GreenSys and our commitment to sustainability"
+           
           }
         ]
       }

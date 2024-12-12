@@ -1,10 +1,11 @@
 import Link from "next/link"
 import { Facebook, Linkedin, Twitter } from 'lucide-react'
 import data from '@/mock/menu.json'
+import Container from "./Container"
 export default function Footer() {
   return (
-    <footer className="bg-white text-gray-800">
-      <div className="container px-4 py-12 mx-auto">
+   <Container>
+     <footer className="bg-white text-gray-800">
       <div className="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-5">
           {data.menuItems.map((menuItem) => (
             <div key={menuItem.id} className="space-y-6">
@@ -19,7 +20,7 @@ export default function Footer() {
                         {section.title}
                       </Link>
                       <ul className="space-y-2 mt-2">
-                        {section.children.map((item) => (
+                        {section.children?.map((item) => (
                           <li key={item.title}>
                             <Link 
                               className="text-gray-800 hover:underline text-sm" 
@@ -67,7 +68,7 @@ export default function Footer() {
             © {new Date().getFullYear()} GreenSys. All rights reserved.
           </div>
         </div>
-      </div>
     </footer>
+   </Container>
   )
 }

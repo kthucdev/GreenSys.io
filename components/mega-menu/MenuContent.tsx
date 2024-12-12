@@ -31,7 +31,7 @@ const MenuContent = ({
       {/* Submenu */}
       <div className="p-1 bg-white rounded-md">
         <ul className="space-y-2">
-          {activeSection.children.map((item) => (
+          {activeSection.children?.map((item) => (
             <li key={item.title} className="border-b border-gray-200">
               <Link
                 href={item.href}

@@ -1,4 +1,5 @@
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 import Link from "next/link";
 import { FC } from "react";
 
@@ -29,10 +30,12 @@ const ListItem: FC<ListItemProps> = function ListItem({
       >
         <div className="flex gap-2">
           {image && (
-            <img
+            <Image
               className="w-20 h-20 p-1 bg-white shadow-md rounded-md"
               src={image}
               alt={title}
+              width={80}
+              height={80}
             />
           )}
           <div>
