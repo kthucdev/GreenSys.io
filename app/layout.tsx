@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import Container from "@/components/global/Container";
 import Header from "@/components/global/Header";
 import Footer from "@/components/global/Footer";
 

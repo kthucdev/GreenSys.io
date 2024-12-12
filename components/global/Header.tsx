@@ -1,6 +1,6 @@
 import { Search, Globe } from 'lucide-react'
 import { Button } from '../ui/button'
-import MegaMenu from '../ui/mega-menu/MegaMenu'
+import MegaMenu from '../mega-menu/MegaMenu'
 import Logo from './Logo'
 import Link from 'next/link'
 import Container from './Container'
