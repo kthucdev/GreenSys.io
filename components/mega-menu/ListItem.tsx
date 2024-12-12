@@ -1,17 +1,23 @@
 import { cn } from "@/lib/utils";
 import Link from "next/link";
-import React, { memo } from "react";
+import { FC } from "react";
 
-type ListItemProps = {
+interface ListItemProps {
   title: string;
   description?: string;
   image?: string;
   isActive: boolean;
   onMouseEnter: () => void;
-};
+}
 
-const ListItem = memo(
-  ({ title, description, image, isActive, onMouseEnter }: ListItemProps) => (
+const ListItem: FC<ListItemProps> = function ListItem({
+  title,
+  description,
+  image,
+  isActive,
+  onMouseEnter,
+}) {
+  return (
     <li className="relative" onMouseEnter={onMouseEnter}>
       <Link
         href="#"
@@ -40,7 +46,7 @@ const ListItem = memo(
         </div>
       </Link>
     </li>
-  )
-);
+  );
+};
 
 export default ListItem;
