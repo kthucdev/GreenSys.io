@@ -1,0 +1,205 @@
+{
+    "menuItems": [
+      {
+        "id": "1",
+        "title": "Platform",
+        "description": "Simplifying and supporting sustainable logistics practices for Shippers, 3PLs and Freight Forwarder",
+        "children": [
+          {
+            "title": "Initiative",
+            "image": "/platform/initiative.jpg",
+            "children": [
+              {
+                "title": "Ocean Visibility",
+                "href": "#",
+                "description": "Track ocean freight in real-time"
+              },
+              {
+                "title": "Air Visibility",
+                "href": "#",
+                "description": "Monitor air shipments globally"
+              },
+              {
+                "title": "Land Visibility",
+                "href": "#",
+                "description": "Track trucks and rail shipments"
+              }
+            ]
+          },
+          {
+            "title": "Visibility",
+            "image": "/platform/initiative.jpg",
+            "description": "Manage on-ground-asset in transit across country wide and neighbors",
+            "children": [
+              {
+                "title": "Purchase Orders",
+                "href": "#",
+                "description": "Manage your purchase orders"
+              },
+              {
+                "title": "Order Tracking",
+                "href": "#",
+                "description": "Track order status"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Solutions",
+        "children": [
+          {
+            "title": "Industries",
+            "image": "/initiative.jpg",
+            "description": "Industry-specific solutions to meet your unique challenges",
+            "children": [
+              {
+                "title": "Manufacturing",
+                "href": "#",
+                "description": "Solutions for manufacturing supply chains"
+              },
+              {
+                "title": "Retail",
+                "href": "#",
+                "description": "Retail and e-commerce solutions"
+              }
+            ]
+          },
+          {
+            "title": "Use Cases",
+            "description": "Discover how our platform solves real business problems",
+            "children": [
+              {
+                "title": "Supply Chain Visibility",
+                "href": "#",
+                "description": "End-to-end visibility solutions"
+              },
+              {
+                "title": "Sustainability",
+                "href": "#",
+                "description": "Reduce environmental impact"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "title": "Carriers",
+        "children": [
+          {
+            "title": "Industries",
+            "image": "/initiative.jpg",
+            "description": "Industry-specific solutions to meet your unique challenges",
+            "children": [
+              {
+                "title": "Manufacturing",
+                "href": "#",
+                "description": "Solutions for manufacturing supply chains"
+              },
+              {
+                "title": "Retail",
+                "href": "#",
+                "description": "Retail and e-commerce solutions"
+              }
+            ]
+          },
+          {
+            "title": "Use Cases",
+            "description": "Discover how our platform solves real business problems",
+            "children": [
+              {
+                "title": "Supply Chain Visibility",
+                "href": "#",
+                "description": "End-to-end visibility solutions"
+              },
+              {
+                "title": "Sustainability",
+                "href": "#",
+                "description": "Reduce environmental impact"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "title": "Resources",
+        "children": [
+          {
+            "title": "Industries",
+            "image": "/initiative.jpg",
+            "description": "Industry-specific solutions to meet your unique challenges",
+            "children": [
+              {
+                "title": "Manufacturing",
+                "href": "#",
+                "description": "Solutions for manufacturing supply chains"
+              },
+              {
+                "title": "Retail",
+                "href": "#",
+                "description": "Retail and e-commerce solutions"
+              }
+            ]
+          },
+          {
+            "title": "Use Cases",
+            "description": "Discover how our platform solves real business problems",
+            "children": [
+              {
+                "title": "Supply Chain Visibility",
+                "href": "#",
+                "description": "End-to-end visibility solutions"
+              },
+              {
+                "title": "Sustainability",
+                "href": "#",
+                "description": "Reduce environmental impact"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "title": "Company",
+        "children": [
+          {
+            "title": "Industries",
+            "image": "/initiative.jpg",
+            "description": "Industry-specific solutions to meet your unique challenges",
+            "children": [
+              {
+                "title": "Manufacturing",
+                "href": "#",
+                "description": "Solutions for manufacturing supply chains"
+              },
+              {
+                "title": "Retail",
+                "href": "#",
+                "description": "Retail and e-commerce solutions"
+              }
+            ]
+          },
+          {
+            "title": "Use Cases",
+            "description": "Discover how our platform solves real business problems",
+            "children": [
+              {
+                "title": "Supply Chain Visibility",
+                "href": "#",
+                "description": "End-to-end visibility solutions"
+              },
+              {
+                "title": "Sustainability",
+                "href": "#",
+                "description": "Reduce environmental impact"
+              }
+            ]
+          }
+        ]
+      }
+  ]
+}
