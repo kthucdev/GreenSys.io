@@ -20,7 +20,7 @@ export default function Footer() {
                         {section.title}
                       </Link>
                       <ul className="space-y-2 mt-2">
-                        {section.children?.map((item) => (
+                        {section?.children.map((item) => (
                           <li key={item.title}>
                             <Link 
                               className="text-gray-800 hover:underline text-sm" 

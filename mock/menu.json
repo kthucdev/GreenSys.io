@@ -196,7 +196,8 @@
             "title": "Newrooms",
             "href": "/resources/newrooms",
             "image": "/platform/initiative.jpg",
-            "description": "See what's news with GreenSys and get a view into Green Transportation "
+            "description": "See what's news with GreenSys and get a view into Green Transportation",
+            "children": []
           },
           {
             "title": "Help Center",
@@ -245,8 +246,8 @@
           {
             "title": "About Us",
             "image": "/platform/initiative.jpg",
-            "description": "Learn about GreenSys and our commitment to sustainability"
-           
+            "description": "Learn about GreenSys and our commitment to sustainability",
+            "children": []
           }
         ]
       }

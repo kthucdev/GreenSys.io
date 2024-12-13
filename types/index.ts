@@ -8,7 +8,7 @@ export type Section = {
     title: string;
     description?: string;
     image?: string;
-    children: SubItem[];
+    children?: SubItem[];
   };
   
 export type MenuContentProps = {
