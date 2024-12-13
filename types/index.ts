@@ -1,15 +1,16 @@
 export type SubItem = {
-    title: string;
-    href: string;
-    description: string;
-  };
-  
+  title: string;
+  href: string;
+  description?: string;
+}
+
 export type Section = {
-    title: string;
-    description?: string;
-    image?: string;
-    children?: SubItem[];
-  };
+  title: string;
+  href?: string;
+  image?: string;
+  description?: string;
+  children?: SubItem[];
+}
   
 export type MenuContentProps = {
     items: Section[];

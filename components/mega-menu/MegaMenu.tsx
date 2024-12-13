@@ -13,7 +13,7 @@ import MenuContent from "./MenuContent";
 import { Section } from "@/types";
 
 const MegaMenu = () => {
-  const [activeSection, setActiveSection] = useState<Section>(data.menuItems[0].children[0]);
+  const [activeSection, setActiveSection] = useState<Section>(data.menuItems[0]?.children[0]);
 
   const handleMenuItemHover = (menuItem: typeof data.menuItems[0]) => {
     // Set the first child section as active when hovering over a menu item
